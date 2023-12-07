@@ -1,0 +1,10 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+#git+https://github.com/uef-bbc/nippy
+#scipy==1.7.3
+#scikit-learn==0.24.2
+#matplotlib==3.2.0
+#numpy==1.21.5
+#pandas
+#ply==3.11
+#python-dateutil==2.8.1
+#specdal==0.2.1
