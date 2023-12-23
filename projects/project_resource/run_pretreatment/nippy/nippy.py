@@ -651,6 +651,6 @@ def nippy(wavelength, spectra, pipelines):
     datasets = []
     for idx, pipeline in enumerate(pipelines):
         wavelength_, spectra_ = run_pipeline(wavelength.copy(), spectra.copy(), pipeline)
-        print('Running pipe {}:\n{}\n'.format(idx + 1, pipeline))
+        #print('Running pipe {}:\n{}\n'.format(idx + 1, pipeline))
         datasets.append((wavelength_, spectra_))
     return datasets
